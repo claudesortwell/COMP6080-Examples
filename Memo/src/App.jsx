@@ -87,6 +87,10 @@ function MemoList() {
   return (
     <div style={{ marginRight: 40 }}>
       <h1>useMemo</h1>
+      <p style={{ width: 250, fontSize: 12 }}>
+        Without the checkboxes and just the counter when clicking list elements
+        this is actually a good solution compared to the left. (Try it)
+      </p>
       <p>Counter: {counter}</p>
       {visibleTodos}
     </div>
